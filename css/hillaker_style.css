@@ -1,0 +1,15 @@
+body {
+  background-color: #CCFFDA;
+}
+
+.header-nav-bar {
+  border-bottom: lightblue solid 6px;
+}
+
+.main-content {
+  border-bottom: lightblue solid 6px;
+}
+
+.footer-main {
+  border-bottom: lightblue solid 6px;
+}
