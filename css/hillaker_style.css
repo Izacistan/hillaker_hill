@@ -2,14 +2,28 @@ body {
   background-color: #CCFFDA;
 }
 
+h1 {
+  text-align: center;
+}
+
 .header-nav-bar {
   border-bottom: lightblue solid 6px;
+  text-align: center;
 }
 
 .main-content {
   border-bottom: lightblue solid 6px;
 }
 
+.footer-nav-main {
+  text-align: center;
+}
+
 .footer-main {
   border-bottom: lightblue solid 6px;
+}
+
+.profile-pic {
+  margin-top: 6px;
+  border-radius: 50%;
 }
