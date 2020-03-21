@@ -1,18 +1,29 @@
 body {
   background-color: #CCFFDA;
+  margin: 0;
 }
 
 h1 {
+  font-size: 75px;
+  color: purple;
   text-align: center;
 }
-
+/* Main navigation bars/boxes */
 .header-nav-bar {
+  border-top: lightblue solid 6px;
   border-bottom: lightblue solid 6px;
   text-align: center;
+  font-size: 25px;
 }
 
-.main-content {
-  border-bottom: lightblue solid 6px;
+.header-nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.header-nav-bar ul li {
+  display: inline;
 }
 
 .footer-nav-main {
@@ -20,10 +31,28 @@ h1 {
 }
 
 .footer-main {
+  font-size: 15px;
+  border-bottom: lightblue solid 6px;
+}
+/* Main content of the page */
+.main-content {
   border-bottom: lightblue solid 6px;
 }
 
 .profile-pic {
   margin-top: 6px;
   border-radius: 50%;
+}
+
+/* Links */
+a:link {
+  color: purple;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color: lightcoral;
 }
