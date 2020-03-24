@@ -16,13 +16,13 @@ h1 {
 
 #main-content {
   font: normal 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
 }
 
 #main-header,
 #main-content,
 #footer-main {
   width: 60%;
+  text-align: center;
 }
 
 /* Main content of the page */
@@ -46,7 +46,7 @@ h1 {
 
 .header-nav-bar ul {
   list-style-type: none;
-  margin: 0;
+  margin: 1%;
   padding: 1%;
 }
 
