@@ -1,6 +1,8 @@
+/* Type Selectors ------------------ */
 body {
   background-color: #CCFFDA;
   margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -8,18 +10,44 @@ h1 {
   color: purple;
   text-align: center;
 }
-/* Main navigation bars/boxes */
+
+/* ID selectors -------------------------------- */
+/* Control resolution of site */
+
+#main-content {
+  font: normal 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#main-header,
+#main-content,
+#footer-main {
+  width: 60%;
+}
+
+/* Main content of the page */
+#main-content {
+  border-bottom: lightblue solid 6px;
+}
+
+#footer-main {
+  font-size: 15px;
+  border-bottom: lightblue solid 6px;
+}
+
+/* Class selectors ---------------------------- */
+  /* Main navigation bars/boxes */
 .header-nav-bar {
   border-top: lightblue solid 6px;
   border-bottom: lightblue solid 6px;
   text-align: center;
-  font-size: 25px;
+  font-size: 2em; /* 32px */
 }
 
 .header-nav-bar ul {
   list-style-type: none;
   margin: 0;
-  padding-bottom: 5px;
+  padding: 1%;
 }
 
 .header-nav-bar ul li {
@@ -30,23 +58,20 @@ h1 {
   text-align: center;
 }
 
-.footer-main {
-  font-size: 15px;
-  border-bottom: lightblue solid 6px;
-}
-/* Main content of the page */
-.main-content {
-  border-bottom: lightblue solid 6px;
+.footer-nav-main ul li {
+  display: inline;
 }
 
+  /* Images */
 .profile-pic {
   margin-top: 6px;
   border-radius: 50%;
 }
 
-/* Links */
+/* pseudo-classes - Links -------------------*/
 a:link {
   color: purple;
+  text-decoration: none; /* Remove underlines from all links */
 }
 
 a:hover {
