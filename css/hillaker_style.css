@@ -39,6 +39,7 @@ h1 {
 /* Class selectors ---------------------------- */
   /* Main navigation bars/boxes */
 .header-nav-bar {
+  background-color: #AFE8AE;
   border-top: lightblue solid 6px;
   border-bottom: lightblue solid 6px;
   text-align: center;
@@ -52,7 +53,9 @@ h1 {
 }
 
 .header-nav-bar ul li {
-  display: inline;
+  display: inline-block;
+  padding: 0 0.625em; /* 10px */
+  border-right: 1px solid lightblue;
 }
 
 .footer-nav-main {
@@ -75,7 +78,9 @@ h1 {
   border: 1px solid lightblue;
   border-radius: 0.25em; /* 4px */
   padding: 0.625em; /* 10px */
+  height: 7.875em;
   width: 7.875em; /* 126px */
+  margin: 0.3125em; /* 5px */
 }
 
 .gallery a img:hover {
