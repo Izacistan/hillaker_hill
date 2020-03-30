@@ -1,4 +1,9 @@
 /* Type Selectors ------------------ */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #CCFFDA;
   margin: 0;
@@ -9,8 +14,12 @@ h1 {
   font-size: 4.6875em; /* 75px/16px*/
   color: purple;
   text-align: center;
+  text-shadow: 5px 8px 10px #78C28D;/* 3 lenght units and color: Horizontal offset, vertical offset, color */
 }
 
+img {
+  max-width: 100%
+}
 /* ID selectors -------------------------------- */
 /* Control resolution of site */
 
@@ -21,9 +30,10 @@ h1 {
 #main-header,
 #main-content,
 #footer-main {
-  width: 60%;
+  width: 75%;
   text-align: center;
   margin: auto; /*  Center all content on page */
+  max-width: 900px;
 }
 
 /* Main content of the page */
