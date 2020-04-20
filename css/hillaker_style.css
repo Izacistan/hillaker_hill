@@ -27,13 +27,12 @@ img {
   font: normal 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#main-header,
 #main-content,
 #footer-main {
-  width: 75%;
+  width: 100%;
   text-align: center;
   margin: auto; /*  Center all content on page */
-  max-width: 900px;
+  max-width: 100%;
 }
 
 /* Main content of the page */
@@ -42,6 +41,7 @@ img {
 }
 
 #footer-main {
+  background-color: #AFE8AE
   font-size: 15px;
   border-bottom: lightblue solid 6px;
 }
@@ -54,6 +54,11 @@ img {
   border-bottom: lightblue solid 6px;
   text-align: center;
   font-size: 2em; /* 32px */
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header-nav-bar ul {
